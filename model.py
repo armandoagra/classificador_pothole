@@ -69,7 +69,7 @@ class ModelClassificadorPulmonarSequencialFlating(nn.Module):
                      nn.Linear(120, 84),
                      nn.ReLU(),
                      nn.Dropout2d(p=0.2),
-                     nn.Linear(84, 3)
+                     nn.Linear(84, 2)
       )
 
     def forward(self, x):

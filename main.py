@@ -75,7 +75,7 @@ def main(parser):
     return total
 
   function_loss = nn.CrossEntropyLoss()
-  optimizer = optim.SGD(rede.parameters(), lr=0.001, momentum=0.9)
+  optimizer = optim.SGD(rede.parameters(), lr=0.005, momentum=0.5)
   best_acc = 0
   # confira o link: https://pytorch.org/docs/stable/nn.html
 
@@ -160,7 +160,7 @@ if __name__ == '__main__':
   parser.add_argument('--data_train_path', type=str, default='data/train')
   parser.add_argument('--data_val_path', type=str, default='data/test')
   parser.add_argument('--device', type=bool, default=False)
-  parser.add_argument('--batch_size', type=int, default=10)
+  parser.add_argument('--batch_size', type=int, default=5)
   parser.add_argument('--pesos', type=bool, default=False)
   parser.add_argument('--save_name', type=str, default="best")
   parser = parser.parse_args()
