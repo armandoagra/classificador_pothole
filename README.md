@@ -1,6 +1,6 @@
-# Classificador de Pothole / Buracos na pista
-
-## Professor: Doglas
+# Unifacisa - Esp. Ciência de Dados
+## Classificador de Pothole / Buracos na pista
+## Professor: Doglas Lima
 ## Aluno: Armando Agra
  
 Dentre as duas opções, foi escolhida a base de dados de buracos na pista (potholes)
